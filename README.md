@@ -1,6 +1,6 @@
 # Gestion de parc
 
-Nous utiliserons Linux mint comme système d'exploitation sur Hyperv.
+Nous utiliserons Linux mint comme système d'exploitation sur Hyperv. https://www.linuxmint.com/download.php
  ![image](https://github.com/Pyncro/sisr-tickets/blob/main/chhh/linux%20mint.png)
  
  
@@ -40,11 +40,15 @@ cd /opt/
 sudo tar -xvzf /tmp/glpi-10.0.0.tgz
 ```
 
-> cd /etc/apache2/conf-available/
+```
+cd /etc/apache2/conf-available/
+```
+
 
 ```
 touch glpi.conf
 ```
+
 
 ```
 Alias /glpi /opt/glpi
