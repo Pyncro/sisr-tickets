@@ -1,7 +1,7 @@
 # Gestion de parc
 
 Nous utiliserons Linux mint comme système d'exploitation sur Hyperv.
-[[https://github.com/Pyncro/sisr-tickets/blob/main/chhh/linux%20mint.png]]
+[https://github.com/Pyncro/sisr-tickets/blob/main/chhh/linux%20mint.png]
  
  
  commencant par:
@@ -64,7 +64,7 @@ sudo a2enconf glpi.conf
 
 ```
 sudo systemctl reload apache2
-```a
+```
 
 ```
 sudo systemctl restart apache2
