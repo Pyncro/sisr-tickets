@@ -5,20 +5,20 @@
 Nous utiliserons Ubuntu comme système d'exploitation sur Parallel.
 
 La VM que nous allons utiliser est Parallel (uniquement pour macOS).
-![clipboard.png](nA9n0JeMM-clipboard.png)
+![images](https://github.com/Pyncro/sisr-tickets/blob/main/chhh/parallel%20web.png)
 
 
 Après avoir installé la VM avec succès, entrez dans le centre de contrôle et cliquez sur l'icône plus.
-![clipboard.png](p-hUyl5c3-clipboard.png)
+![images](https://github.com/Pyncro/sisr-tickets/blob/main/chhh/Add%20IOS.png)
 
 Attention, si vous utilisez une machine Mac M1, la plupart des fichiers IOS (comme linux mint) ne seront pas disponibles à l'installation.
-![clipboard.png](skmxp_lGk-clipboard.png)
+![images](https://github.com/Pyncro/sisr-tickets/blob/main/chhh/M1%20warning.png)
 
 Cliquez sur l'icône Ubuntu et procédez à l'installation.
-![clipboard.png](3af3o7df6-clipboard.png)
+![images](https://github.com/Pyncro/sisr-tickets/blob/main/chhh/choose%20Ubuntu.png)
 
 Un compte sera déjà disponible mais aucun mot de passe n'est défini (il vous demandera d'entrer le mot de passe que vous souhaitez utiliser).
-![clipboard.png](n7pvmeatn-clipboard.png)
+![images](https://github.com/Pyncro/sisr-tickets/blob/main/chhh/Capture%20d’écran%202022-05-14%20à%2016.21.10.png)
 
 
 
@@ -108,7 +108,8 @@ max_input_vars = 4440
 
 Redémarrez Apache et vérifiez l’état du service :
 
-![clipboard.png](vOMzGnlLb-clipboard.png)
+![images](https://github.com/Pyncro/sisr-tickets/blob/main/chhh/status%20works.PNG)
+
 # Install GLPI
 
 ```
@@ -155,11 +156,11 @@ sudo nano /etc/apache2/conf-available/glpi.conf
 
 
 
-![clipboard.png](Ybg3PVplv-clipboard.png)
+![images](https://github.com/Pyncro/sisr-tickets/blob/main/chhh/glpi%20with%20ip.png)
 
-![clipboard.png](UNPfsYw45-clipboard.png)
+![images](https://github.com/Pyncro/sisr-tickets/blob/main/chhh/Accept%20terms%20of%20service.PNG)
 
 
-![clipboard.png](O5OPy29BX-clipboard.png)
+![images](https://github.com/Pyncro/sisr-tickets/blob/main/chhh/package%20extensions.PNG)
 
-![clipboard.png](ENOQcBiop-clipboard.png)
+![images](https://github.com/Pyncro/sisr-tickets/blob/main/chhh/glpi%20menu.PNG)
