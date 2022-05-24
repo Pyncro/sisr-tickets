@@ -116,7 +116,7 @@ Redémarrez Apache et vérifiez l’état du service :
 
 cd /tmp
 
-wget https://github.com/glpi-project/glpi/releases/download/9.4.5/glpi-10.0.0.tgz
+wget https://github.com/glpi-project/glpi/releases/download/10.0.0/glpi-10.0.0.tgz
 
 tar -zxvf glpi-10.0.0.tgz
 
