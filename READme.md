@@ -18,7 +18,7 @@ Cliquez sur l'icône Ubuntu et procédez à l'installation.
 ![images](https://github.com/Pyncro/sisr-tickets/blob/main/chhh/choose%20Ubuntu.png)
 
 Un compte sera déjà disponible mais aucun mot de passe n'est défini (il vous demandera d'entrer le mot de passe que vous souhaitez utiliser).
-![images]((https://github.com/Pyncro/sisr-tickets/blob/main/chhh/Captured.png)
+![images](https://github.com/Pyncro/sisr-tickets/blob/main/chhh/Captured.png)
 
 
 
