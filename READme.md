@@ -164,3 +164,6 @@ sudo nano /etc/apache2/conf-available/glpi.conf
 ![images](https://github.com/Pyncro/sisr-tickets/blob/main/chhh/package%20extensions.PNG)
 
 ![images](https://github.com/Pyncro/sisr-tickets/blob/main/chhh/glpi%20menu.PNG)
+
+
+Debian: https://zatoufly.fr/installer-glpi-10-sur-debian/
