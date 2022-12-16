@@ -194,3 +194,18 @@ chown -R www-data:www-data /var/www/html/glpi
 chmod -R 775 /var/www/html/glpi
 
 ```
+
+
+```
+mysql -u root
+```
+
+
+```
+create database glpi;
+create user glpiuser@localhost identified by ‘motdepasse’;
+grant all privileges on glpi.* to glpiuser@localhost;
+flush privileges;
+exit;
+```
+
