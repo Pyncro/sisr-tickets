@@ -167,3 +167,30 @@ sudo nano /etc/apache2/conf-available/glpi.conf
 
 
 Debian: https://zatoufly.fr/installer-glpi-10-sur-debian/
+
+
+```
+apt update && apt full-upgrade -y
+
+apt install apache2 mariadb-server php -y
+
+systemctl enable apache2 mariadb
+```
+
+```
+apt install perl -y
+
+apt install php-ldap php-imap php-apcu php-cas php-mysqli php-mbstring php-curl php-gd php-simplexml php-xml php-intl php-zip php-bz2 -y
+
+systemctl reload apache2
+
+
+cd /tmp/
+wget https://github.com/glpi-project/glpi/releases/download/10.0.0/glpi-10.0.0.tgz
+
+tar xzf glpi-10.0.0.tgz -C /var/www/html
+
+chown -R www-data:www-data /var/www/html/glpi
+chmod -R 775 /var/www/html/glpi
+
+```
