@@ -48,7 +48,8 @@ mysql -u root -p
 * Donnez un contrôle total sur la base de données glpi à l’utilisateur glpi
 
 ```
-mysql> CREATE DATABASE glpi CHARACTER SET UTF8 COLLATE UTF8_BIN;
+mysql> 
+CREATE DATABASE glpi CHARACTER SET UTF8 COLLATE UTF8_BIN;
 CREATE USER 'glpi'@'%' IDENTIFIED BY 'glpi';
 GRANT ALL PRIVILEGES ON glpi.* TO 'glpi'@'%';
 FLUSH PRIVILEGES;
@@ -148,7 +149,7 @@ sudo nano /etc/apache2/conf-available/glpi.conf
 </Directory>
 ```
 
-
+```systemctl restart apache2 ```
 
 
 
