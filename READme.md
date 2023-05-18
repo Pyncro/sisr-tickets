@@ -22,7 +22,7 @@ Un compte sera déjà disponible mais aucun mot de passe n'est défini (il vous 
 
 
 
-# 2.Install MySQL
+# 2.Install MariaDB
  
  avant de commencer, procéder à la mise à jour du logiciel dans le terminal:
  
@@ -33,7 +33,7 @@ Puis:
 
 
 ```
-sudo apt install mysql-server mysql-client
+sudo apt install mariadb-server mariadb-client
 
 ```
 
