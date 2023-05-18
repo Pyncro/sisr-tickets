@@ -64,7 +64,7 @@ sudo apt install apache2 php php-mysql libapache2-mod-php
 ```
 
 ```
-sudo apt install php-json php-gd php-curl php-mbstring php-cas php-xml php-cli php-imap php-ldap php-xmlrpc php-apcu
+sudo apt install php-json php-gd php-curl php-mbstring php-cas php-xml php-cli php-imap php-ldap php-xmlrpc php-apcu php-intl php-zip php-bz2
 
 ```
 
